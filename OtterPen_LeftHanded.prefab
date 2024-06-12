@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6263283317691601159}
   - component: {fileID: 6247487131034295593}
+  - component: {fileID: 1771758675698272789}
   m_Layer: 0
   m_Name: OtterPenContactReceiver_LeftHanded
   m_TagString: Untagged
@@ -58,6 +59,52 @@ MonoBehaviour:
   receiverType: 0
   parameter: OtterPenContact
   minVelocity: 0.05
+--- !u!114 &1771758675698272789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633888812369632523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.943.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1599825996301730167
+  references:
+    version: 2
+    RefIds:
+    - rid: 1599825996301730167
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 4
+        propBone: {fileID: 633888812369632523}
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 1
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
 --- !u!1 &2432919951848502444
 GameObject:
   m_ObjectHideFlags: 0
