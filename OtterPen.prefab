@@ -762,6 +762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6641653039651248421}
+  - component: {fileID: 6716972008699910170}
   m_Layer: 0
   m_Name: OtterPenAnchor
   m_TagString: Untagged
@@ -785,6 +786,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7558779203874589291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6716972008699910170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187634313065911196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.943.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1599825995644534878
+  references:
+    version: 2
+    RefIds:
+    - rid: 1599825995644534878
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 4
+        propBone: {fileID: 7187634313065911196}
+        linkTo:
+        - useBone: 1
+          bone: 18
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 1
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
 --- !u!1 &8074816701474225939
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4324717066399531158}
   - component: {fileID: 2829012874204501178}
+  - component: {fileID: 6204250632808281293}
   m_Layer: 0
   m_Name: OtterPenContactReceiver
   m_TagString: Untagged
@@ -843,3 +891,49 @@ MonoBehaviour:
   receiverType: 0
   parameter: OtterPenContact
   minVelocity: 0.05
+--- !u!114 &6204250632808281293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8074816701474225939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.943.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1599825995644534917
+  references:
+    version: 2
+    RefIds:
+    - rid: 1599825995644534917
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 4
+        propBone: {fileID: 8074816701474225939}
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 1
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
